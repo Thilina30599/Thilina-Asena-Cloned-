@@ -1,0 +1,72 @@
+"name": "WhatsAsena",
+    "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://telegra.ph/file/febe5fafe800433d3f3a2.jpg",
+    "keywords": ["whatsapp", "userbot", "Asena"],
+    "repository": "https://github.com/Thilina30599/Thilina-Asena-Cloned-",
+    "website":   "https://quiec.tech",
+    "success_url": "https://t.me/AsenaSupport",
+    "stack": "container",
+    "env": {
+        "ASENA_SESSION": {
+            "description": "Qr.Code after scanning qr.",
+            "required": true
+        },
+        "SUDO": {
+            "description": "Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "required": false
+        },
+        "LANGUAGE": {
+            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => IN, Español => ES",
+            "required": true,
+            "value": "en"
+        },
+        "HANDLERS": {
+            "description": "prefix of bot.",
+            "required": true,
+            "value": "^[.!;]"
+        },
+        "SEND_READ": {
+            "description": "Set true or false.",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU": {
+            "description": "Heroku.",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Heroku API Key.",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Heroku APP Name.",
+            "required": true
+        },
+        "DEBUG": {
+            "description": "If you dont know skip it.",
+            "required": true,
+            "value": "false"
+        },
+        "REMOVE_BG_API_KEY": {
+            "description": "Get it from. https://remove.bg",
+            "required": false
+        },
+        "NO_ONLINE": {
+            "description": "Set true  or false.",
+            "required": false,
+            "value": "true"
+        },
+        "COFFEEHOUSE_API_KEY": {
+            "description": "CoffeeHouse API Key. Need for Lydia. https://coffeehouse.intellivoid.net/",
+            "required": false,
+            "value": "true"
+        }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
