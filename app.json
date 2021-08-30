@@ -3,8 +3,8 @@
     "logo": "https://telegra.ph/file/febe5fafe800433d3f3a2.jpg",
     "keywords": ["whatsapp", "userbot", "Asena"],
     "repository": "https://github.com/Thilina30599/Thilina-Asena-Cloned-",
-    "website":   "https://quiec.tech",
-    "success_url": "https://t.me/AsenaSupport",
+    "website":   "https://t.me/thilauna",
+    "success_url": "https://t.me/thilauna",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
