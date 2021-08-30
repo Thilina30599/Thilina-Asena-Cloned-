@@ -48,6 +48,46 @@ asena.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, 
         }));    
 
     }
+                  asena.addCommand({pattern: 'hi', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                
+                        var r_text = new Array ();
+                    
+                        r_text[1] = "Hi👋";
+                        r_text[2] ="Hi Bro 👋";
+                        r_text[3] ="hi 👋";
+                        r_text[4] ="Hi Why are you texting";
+                        r_text[5] ="Hi";
+                
+                      
+                    
+                        var i = Math.floor(6*Math.random())
+                    
+                        await message.client.sendMessage(
+                            message.jid,(r_text[i]), MessageType.text);
+                    
+                        }));
+}   
+
+                asena.addCommand({pattern: 'bye', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                
+                        var r_text = new Array ();
+                    
+                        r_text[1] = "Bye Bye";
+                        r_text[2] ="◉_◉ Bye!";
+                        r_text[3] ="Sayonara 👋";
+                        r_text[4] ="Bye :(";
+                        r_text[5] ="Bye bro";
+                
+                      
+                    
+                        var i = Math.floor(6*Math.random())
+                    
+                        await message.client.sendMessage(
+                            message.jid,(r_text[i]), MessageType.text);
+                    
+                        }));
+}   
+    
     
 
     if (Config.WORKTYPE == 'public') {
@@ -90,6 +130,46 @@ asena.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, 
                     message.jid,(r_text[i]), MessageType.text);
             
                 }));    
+                             asena.addCommand({pattern: 'hi', fromMe: false, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                
+                        var r_text = new Array ();
+                    
+                        r_text[1] = "Hi👋";
+                        r_text[2] ="Hi Bro 👋";
+                        r_text[3] ="hi 👋";
+                        r_text[4] ="Hi Why are you texting";
+                        r_text[5] ="Hi";
+                
+                      
+                    
+                        var i = Math.floor(6*Math.random())
+                    
+                        await message.client.sendMessage(
+                            message.jid,(r_text[i]), MessageType.text);
+                    
+                        }));
+}   
+
+                asena.addCommand({pattern: 'bye', fromMe: false, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                
+                        var r_text = new Array ();
+                    
+                        r_text[1] = "Bye Bye";
+                        r_text[2] ="◉_◉ Bye!";
+                        r_text[3] ="Sayonara 👋";
+                        r_text[4] ="Bye :(";
+                        r_text[5] ="Bye bro";
+                
+                      
+                    
+                        var i = Math.floor(6*Math.random())
+                    
+                        await message.client.sendMessage(
+                            message.jid,(r_text[i]), MessageType.text);
+                    
+                        }));
+}    
+                
                 asena.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
         
                     var r_text = new Array ();
