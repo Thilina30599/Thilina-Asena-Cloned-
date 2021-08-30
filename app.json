@@ -2,7 +2,7 @@
     "name": "ThilinaBot",
     "description": "🎭Thilina🪐 is a first Made in sri lanka 🇱🇰chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
     "logo": "https://telegra.ph/file/cc0e2bb2add47047d0fc0.jpg",
-    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai", "🎭ɴᴇᴏᴛʀᴏ𝙭🪐"],
+    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai", "🤖𝓣𝓱𝓲𝓵𝓲𝓷𝓪 𝓑𝓸𝓽"],
     "repository": "",
     "website":   "https://chat.whatsapp.com/94772789984",
     "success_url": "https://t.me/thilauna",
@@ -34,7 +34,7 @@
         "MENU_LOGO": {
             "description": "menu logo | මෙනූ ලෝගෝ එක අවශ්‍යනම් වෙනස් කරන්න",
             "required": false,
-            "value": "https://telegra.ph/file/cc0e2bb2add47047d0fc0.jpg"
+            "value": "https://telegra.ph/file/febe5fafe800433d3f3a2.jpg"
         },
         "BOT_NAME": {
             "description": "Your Bot Name | ඔබේ Bot ගෙ නම",
@@ -97,7 +97,7 @@
          "ALIVE_LOGO": {
             "description": "ALIVE LOGO | Alive message පින්තූරය වෙනස් කිරීම සඳහා ඔබගේ image link පහත සඳහන් කරන්න.",
             "required": true,
-            "value": "https://telegra.ph/file/ef9be86d4f8e07cfb9210.jpg"
+            "value": "https://telegra.ph/file/febe5fafe800433d3f3a2.jpg"
         },
         "WELCOME_LOGO": {
             "description": "WELCOME LOGO | Welcome message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
